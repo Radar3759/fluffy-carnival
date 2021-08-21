@@ -1,7 +1,8 @@
 import random
 
 high_score = 0
-
+roll_1 = random.randint(1, 6)
+roll_2 = random.randint(1, 6)
 print("Current High Score: ", high_score)
 
 def dice_game():
@@ -13,8 +14,8 @@ def dice_game():
         print("2) Leave Game")
         option = input("Enter Your Choice: ")
         if option == "1":
-            roll_1 = random.randint(1, 6)
-            roll_2 = random.randint(1, 6)
+            #roll_1 = random.randint(1, 6)
+            #roll_2 = random.randint(1, 6)
             total_roll = roll_1 + roll_2
             print("You roll a...", roll_1)
             print("You roll a...", roll_2)
