@@ -1,2 +1,2 @@
 # verbose-guide
-Python Fundamentals Project Week 1
+Python Fundamentals Weekly Projects
